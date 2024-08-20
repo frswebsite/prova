@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="about">
+    <style>
+        #about{
+            background-color: black;
+            color: white;
+        }
+        #title_about{
+            opacity: 0;
+            transition:all 10s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        #title_about.loaded{
+            opacity: 1;
+        }
+        header a{
+            color: white;
+            text-decoration: none;
+        }
+        .nav a{
+            color: white;
+        }
+    </style>
+       <header>
+        <h1>ENERMARE</h1>
+        <ul class="nav">
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="prodotti.html">PRODOTTI</a></li>
+            <li><a href="viaggio.html">IL VIAGGIO</a></li>
+            <li><a href="q&a.html">Q&A</a></li>
+            <li id="login"><a href="login.php">LOGIN</a></li>
+        </ul>
+    </header>
+<section>
+    
+</section>
+    <section class="about">
+        <h1 id="title_about">VERSO UN NUOVO<br> ORIZZONTE</h1>
+        <div class="text-about back1">
+            <p class="reveal-type" data-bg-color="#000000" data-fg-color="white">Per un mondo migliore e una vita più sostenibile alla scoperta di nuove architetture.</p>
+        </div>
+        <div class="text-about back2">
+            <p class="reveal-type" data-bg-color="#000000" data-fg-color="white">Enermare è un'azienda all'avanguardia nel settore dell'energia rinnovabile, specializzata nell'utilizzo delle onde del mare per generare energia pulita e sostenibile. </p>
+            <br><br>
+            <p class="reveal-type" data-bg-color="#ffffff" data-fg-color="green">La nostra missione è fornire soluzioni innovative e affidabili per una transizione verso un futuro energetico più verde e sostenibile.</p>
+        </div>
+        <div class="product_about">
+            <div class="box_product_about">
+                <img src="imagine/megaRoller.jpg" alt="">
+                <div class="text_box_about">
+                    <h2>Mega Roller</h2>
+                    <p>Il Mega Roller è un dispositivo innovativo che cattura l'energia delle onde attraverso un movimento ondulatorio verticale, convertendola in energia elettrica utilizzabile.
+                        Grazie alla sua progettazione efficiente e resistente, il Merga Roller è adatto a una varietà di condizioni marine e può essere integrato in sistemi di produzione energetica su larga scala.</p>
+                
+                </div>
+            </div>
+            
+            <div class="box_product_about">
+                <img src="imagine/waveRoller/wave1.jpg" alt="" style="width: 700px;">
+                <div class="text_box_about">
+                    <h2>Wave Roller</h2>
+                    <p>Il Mega Roller è un dispositivo innovativo che cattura l'energia delle onde attraverso un movimento ondulatorio verticale, convertendola in energia elettrica utilizzabile.
+                        Grazie alla sua progettazione efficiente e resistente, il Merga Roller è adatto a una varietà di condizioni marine e può essere integrato in sistemi di produzione energetica su larga scala.</p>
+                
+                </div>
+            </div>
+        </div>
+        <div class="sponsor">
+            <h2 id="sponsor_title">I Nostri Sponsor</h2>
+            <div class="row">
+                <div class="sponsor_id">
+                    <img src="sponsor/img1.png">
+                </div>
+                <div class="sponsor_id">
+                    <img src="sponsor/img2.png">
+                </div>
+                <div class="sponsor_id">
+                    <img src="sponsor/img2.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="sponsor_id">
+                    <img src="sponsor/img1.png">
+                </div>
+                <div class="sponsor_id">
+                    <img src="sponsor/img2.png">
+                </div>
+                <div class="sponsor_id">
+                    <img src="sponsor/img1.png">
+                </div>
+            </div>
+            
+        </div>
+        </section>
+
+
+
+    <div class="paragrafo goals">
+        <h3>Perchè Scegliere Noi</h3>
+        <div class="containerGoals paragrafo">
+            <div class="goal paragrafo">
+                <img src="icone/icons8-innovazione-96.png" alt="">
+                <p>Innovazione Tecnologica</p>
+            </div>
+            <div class="goal paragrafo">
+                <img src="icone/icons8-mano-amica-96.png" alt="">
+                <p>Affidabilità e Perfomance</p>
+            </div>
+            <div class="goal paragrafo">
+                <img src="icone/icons8-ambiente-96.png" alt="">
+                <p>Impegno Ambientale</p>
+            </div>
+            <div class="goal paragrafo">
+                <img src="icone/icons8-assistenza-clienti-96.png" alt="">
+                <p>Supporto Clienti</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+
+    <script src="revealText.js"></script>
+
+</body>
+</html>
